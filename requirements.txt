@@ -2,7 +2,7 @@ matplotlib==3.8.0
 streamlit
 pandas==2.1.1
 numpy==1.26.1
-scipy
+scipy==1.11.3
 requests==2.31.0
 bs4==0.0.2
 plotly==5.20.0
