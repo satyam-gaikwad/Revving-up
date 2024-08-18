@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 
 st. set_page_config(layout="wide")
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def get_urls():
     base_url = "https://www.smev.in/"
