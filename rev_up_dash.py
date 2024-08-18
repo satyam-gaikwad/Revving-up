@@ -255,7 +255,7 @@ def plot_yearly_sales(df):
 def main():
     st.title("Electric Vehicle Sales Dashboard")
 
-    df = pd.read_csv("all_year2.csv")
+    df = pd.read_csv("all_year2.csv", delimiter=',', encoding='utf-8')
     df = df.drop(['Unnamed: 0'],axis=1)
 
     # Sidebar
